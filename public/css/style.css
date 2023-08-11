@@ -1,0 +1,202 @@
+/* Variables */
+:root {
+  /* Colors */
+  --yellow: #eac926;
+  --blue: #03264c;
+  --skyblue: #1259c3;
+  --darkgrey: #666666;
+  --lightgrey: #ebebeb;
+  --green: #39b54a;
+  --white: #ffffff;
+
+  /* Font sizes */
+  --text-xl: 24px;
+  --text-lg: 18px;
+  --text-md: 16px;
+  --text-sm: 12px;
+}
+
+/* Backgrounds */
+.bg-yellow {
+  background-color: var(--yellow);
+}
+
+.bg-light-grey {
+  background-color: var(--lightgrey);
+}
+
+.bg-white {
+  background-color: var(--white);
+}
+
+/* Header */
+.installments {
+  font-size: var(--text-sm);
+  text-align: center;
+  margin: 10px 0;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+}
+nav ul {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: var(--text-sm);
+}
+
+.burger-menu {
+  display: inline-flex;
+  margin: 20px auto;
+  background-color: var(--skyblue);
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: var(--text-xl);
+  text-align: center;
+}
+
+/* Main */
+main {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.card-container h2 {
+  font-size: var(--text-xl);
+  color: var(--darkgrey);
+  margin: 20px 0 20px 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px 0 15px;
+  margin: 10px 0 10px 0;
+  background-color: var(--white);
+}
+.card img {
+  width: 100%;
+  margin: auto;
+}
+
+.card-description {
+  position: relative;
+  border-top: 1px solid var(--lightgrey);
+  padding: 20px 0 20px 0;
+}
+.card-description h3 {
+  margin-top: 20px;
+  font-size: var(--text-md);
+  font-weight: 400;
+  color: var(--darkgrey);
+}
+
+.card-description-value {
+  display: flex;
+  text-align: start;
+  align-items: baseline;
+}
+
+.card-description-price {
+  font-size: var(--text-lg);
+  width: 30%;
+}
+
+.card-description-discount {
+  font-size: var(--text-md);
+  color: var(--green);
+  width: 70%;
+}
+
+.card-shipment-icon {
+  display: block;
+  font-size: var(--text-md);
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid var(--green);
+  background-color: var(--white);
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  top: -15px;
+}
+.card-shipment-icon i {
+  color: var(--green);
+}
+
+/* Footer */
+.benefits {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 50px;
+}
+.benefits i {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: var(--skyblue);
+}
+.benefits h4 {
+  font-size: var(--text-lg);
+  color: var(--darkgrey);
+}
+.benefits p {
+  font-size: var(--text-sm);
+  color: var(--darkgrey);
+}
+
+.copyright {
+  font-size: var(--text-sm);
+  color: var(--darkgrey);
+  padding: 20px;
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  /* Header */
+  nav ul {
+    display: none;
+    flex-direction: column;
+  }
+
+  /* Main */
+  .card-description h3 {
+    display: none;
+  }
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Header */
+  .burger-menu {
+    display: none;
+  }
+
+  /* Main */
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .card-container h2 {
+    width: 100%;
+  }
+
+  .card {
+    width: 50%;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+}
