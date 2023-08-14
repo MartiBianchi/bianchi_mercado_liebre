@@ -141,13 +141,13 @@ main {
 
 .card-description-price {
   font-size: var(--text-lg);
-  width: 30%;
+  flex-grow: 3;
 }
 
 .card-description-discount {
   font-size: var(--text-md);
   color: var(--green);
-  width: 70%;
+  flex-grow: 7;
 }
 
 .card-shipment-icon {
