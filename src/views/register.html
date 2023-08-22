@@ -81,10 +81,48 @@
     </header>
 
     <main>
-      <form action="">
-        <input type="text" for="name" id="name" />
-        <input type="text" for="username" id="username" />
-        <input type="email" form="email" id="email" />
+      <form action="" class="register-container">
+        <input
+          type="text"
+          for="name"
+          id="name"
+          placeholder="Nombre y apellido"
+        />
+        <input
+          type="text"
+          for="username"
+          id="username"
+          placeholder="Nombre de usuario"
+        />
+        <input type="email" form="email" id="email" placeholder="E-mail" />
+
+        <label for="" class="register-date">
+          <p>Fecha de nacimiento</p>
+          <input type="date" />
+        </label>
+
+        <input type="text" placeholder="Domicilio" />
+
+        <div class="register-user-profile">
+          <p>Perfil del usuario</p>
+          <div>
+            <label for=""><input type="checkbox" /> Comprador</label>
+            <label for=""><input type="checkbox" /> Vendedor</label>
+          </div>
+        </div>
+
+        <label for="" class="register-interest">
+          <p>Intereses</p>
+          <label for=""><input type="checkbox" name="" id="" /> Electro</label>
+          <label for=""><input type="checkbox" name="" id="" /> Moda</label>
+          <label for=""><input type="checkbox" name="" id="" /> Hogar</label>
+          <label for=""
+            ><input type="checkbox" name="" id="" /> Juguetería</label
+          >
+          <label for=""
+            ><input type="checkbox" name="" id="" /> Vida sana</label
+          >
+        </label>
       </form>
     </main>
   </body>

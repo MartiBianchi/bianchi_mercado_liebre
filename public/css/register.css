@@ -1,0 +1,44 @@
+.register-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  gap: 32px;
+}
+
+.register-container input {
+  padding: 15px 20px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.register-date {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.register-user-profile {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.register-user-profile div {
+  display: flex;
+  justify-content: space-around;
+}
+.register-user-profile input {
+  margin-right: 15px;
+}
+
+.register-interest {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.register-interest label {
+  margin-left: 20px;
+}
+.register-interest input {
+  margin-right: 15px;
+}
