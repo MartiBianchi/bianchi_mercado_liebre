@@ -16,11 +16,17 @@
   flex-direction: column;
   gap: 20px;
 }
+.register-date p {
+  font-weight: bold;
+}
 
 .register-user-profile {
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+.register-user-profile p {
+  font-weight: bold;
 }
 .register-user-profile div {
   display: flex;
@@ -35,10 +41,20 @@
   flex-direction: column;
   gap: 20px;
 }
+.register-interest p {
+  font-weight: bold;
+}
 
 .register-interest label {
   margin-left: 20px;
 }
 .register-interest input {
   margin-right: 15px;
+}
+
+@media (min-width: 1023px) {
+  .register-container {
+    width: 80%;
+    margin: 50px auto;
+  }
 }
