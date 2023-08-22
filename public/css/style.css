@@ -304,8 +304,15 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
   }
+
   .benefits-container {
     display: flex;
     width: 100%;
+  }
+  .benefits i {
+    transition: all 0.2s ease-in-out;
+  }
+  .benefits i:hover {
+    color: #03264c;
   }
 }
