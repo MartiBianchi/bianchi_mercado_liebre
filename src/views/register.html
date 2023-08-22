@@ -106,23 +106,61 @@
         <div class="register-user-profile">
           <p>Perfil del usuario</p>
           <div>
-            <label for=""><input type="checkbox" /> Comprador</label>
-            <label for=""><input type="checkbox" /> Vendedor</label>
+            <label for="comprador"
+              ><input type="checkbox" name="comprador" id="comprador" />
+              Comprador</label
+            >
+            <label for="vendedor"
+              ><input type="checkbox" name="vendedor" id="vendedor" />
+              Vendedor</label
+            >
           </div>
         </div>
 
         <label for="" class="register-interest">
           <p>Intereses</p>
-          <label for=""><input type="checkbox" name="" id="" /> Electro</label>
-          <label for=""><input type="checkbox" name="" id="" /> Moda</label>
-          <label for=""><input type="checkbox" name="" id="" /> Hogar</label>
-          <label for=""
-            ><input type="checkbox" name="" id="" /> Juguetería</label
+          <label for="electro"
+            ><input type="checkbox" name="electro" id="electro" />
+            Electro</label
           >
-          <label for=""
-            ><input type="checkbox" name="" id="" /> Vida sana</label
+          <label for="moda"
+            ><input type="checkbox" name="moda" id="moda" /> Moda</label
+          >
+          <label for="hogar"
+            ><input type="checkbox" name="hogar" id="hogar" /> Hogar</label
+          >
+          <label for="jugueteria"
+            ><input type="checkbox" name="jugueteria" id="jugueteria" />
+            Juguetería</label
+          >
+          <label for="vida-sana"
+            ><input type="checkbox" name="vida-sana" id="vida-sana" /> Vida
+            sana</label
           >
         </label>
+
+        <label for="profile-picture" class="register-profile-picture">
+          <input
+            type="image"
+            name="profile-picture"
+            accept=".jpg"
+            value="Seleccionar imagen de perfil"
+          />
+        </label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Contraseña"
+        />
+        <input
+          type="password"
+          name="password2"
+          id="password2"
+          placeholder="Repetir contraseña"
+        />
+
+        <input type="button" value="Enviar" class="register-btn" />
       </form>
     </main>
   </body>
