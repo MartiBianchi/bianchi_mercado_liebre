@@ -203,6 +203,7 @@ footer {
   font-size: var(--text-sm);
   color: var(--darkgrey);
   padding: 50px 20px 20px 20px;
+  margin: 0 auto;
 }
 
 /* Mobile */
@@ -288,5 +289,23 @@ footer {
   .card:hover {
     transform: scale(105%);
     cursor: pointer;
+  }
+
+  .card-shipment-icon {
+    transition: all 0.4s ease-in-out;
+  }
+  .card-shipment-icon:hover {
+    transform: rotate(360deg);
+  }
+
+  /* Footer */
+  footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .benefits-container {
+    display: flex;
+    width: 100%;
   }
 }
