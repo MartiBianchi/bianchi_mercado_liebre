@@ -1,6 +1,10 @@
 .register-container {
   display: flex;
   flex-direction: column;
+  background-color: #fafafa;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
   margin-top: 50px;
   gap: 32px;
 }
@@ -70,7 +74,8 @@
   color: white;
   font-size: 16px;
   font-weight: 500;
-  margin-bottom: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   transition: all 0.2s ease-in-out;
 }
 .register-btn:hover {
