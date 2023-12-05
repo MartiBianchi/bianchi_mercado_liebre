@@ -308,6 +308,7 @@ footer {
   .benefits-container {
     display: flex;
     width: 100%;
+    justify-content: center;
   }
   .benefits i {
     transition: all 0.2s ease-in-out;
